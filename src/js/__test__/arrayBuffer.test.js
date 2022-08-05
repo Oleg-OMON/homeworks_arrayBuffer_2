@@ -1,5 +1,5 @@
 import getBuffer from '../app';
-import ArrayBuffer from '../ArrayBuffer';
+import ArrayBuffer from '../arrayBuffer';
 
 test('перевод содержимого загруженного ArrayBuffer в строку', () => {
   const buffer = getBuffer();
